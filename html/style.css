@@ -1,0 +1,16 @@
+/* Make the body take full height & center content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: black;
+}
+
+.clock h1 {
+  color: cyan;
+  font-size: 4rem;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
